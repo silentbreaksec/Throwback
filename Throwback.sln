@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Throwback", "Throwback\Throwback.vcxproj", "{D7D20588-8C18-4796-B2A4-386AECF14256}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThrowbackDLL", "ThrowbackDLL\ThrowbackDLL.vcxproj", "{60C1DA68-85AC-43AB-9A2B-27FA345EC113}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7D20588-8C18-4796-B2A4-386AECF14256}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7D20588-8C18-4796-B2A4-386AECF14256}.Debug|Win32.Build.0 = Debug|Win32
+		{D7D20588-8C18-4796-B2A4-386AECF14256}.Debug|x64.ActiveCfg = Debug|x64
+		{D7D20588-8C18-4796-B2A4-386AECF14256}.Debug|x64.Build.0 = Debug|x64
+		{D7D20588-8C18-4796-B2A4-386AECF14256}.Release|Win32.ActiveCfg = Release|Win32
+		{D7D20588-8C18-4796-B2A4-386AECF14256}.Release|Win32.Build.0 = Release|Win32
+		{D7D20588-8C18-4796-B2A4-386AECF14256}.Release|x64.ActiveCfg = Release|x64
+		{D7D20588-8C18-4796-B2A4-386AECF14256}.Release|x64.Build.0 = Release|x64
+		{60C1DA68-85AC-43AB-9A2B-27FA345EC113}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60C1DA68-85AC-43AB-9A2B-27FA345EC113}.Debug|Win32.Build.0 = Debug|Win32
+		{60C1DA68-85AC-43AB-9A2B-27FA345EC113}.Debug|x64.ActiveCfg = Debug|x64
+		{60C1DA68-85AC-43AB-9A2B-27FA345EC113}.Debug|x64.Build.0 = Debug|x64
+		{60C1DA68-85AC-43AB-9A2B-27FA345EC113}.Release|Win32.ActiveCfg = Release|Win32
+		{60C1DA68-85AC-43AB-9A2B-27FA345EC113}.Release|Win32.Build.0 = Release|Win32
+		{60C1DA68-85AC-43AB-9A2B-27FA345EC113}.Release|x64.ActiveCfg = Release|x64
+		{60C1DA68-85AC-43AB-9A2B-27FA345EC113}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
